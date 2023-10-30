@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+   font-family: 'Jost', sans-serif;
+   background-color: #B27352;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 100px;
+}
+
+.logo img{
+   width: 60%;
+}
+
+.container{
+   position: absolute;
+   width: 500px;
+   height: 100px;
+   border-radius: 25px;
+   left: 60%;
+   top: 70%;
+   transform: translate(-50%,-50%);
+}
+
+.container h1{
+   color: aliceblue;
+   padding: 10px;
+   font-size: 35px;
+}
+
+.container a{
+   text-decoration: none;
+}
+
+.container h1:hover{
+   color:#4CC9FD;
+   cursor: pointer;
+   font-size: 38px;
+}

@@ -1,0 +1,62 @@
+html, body {
+  margin:0;
+  padding: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+canvas {
+  display: block;
+}
+html, body {
+  margin:0;
+  padding: 0;
+  background-color: #004853;
+}
+canvas {
+  display: block;
+}
+
+.title{
+  display:flex;
+  flex:auto;
+  align-items: center;
+  color: #f63700;
+}
+
+.title h1{
+  font-size: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:
+              'Lucida Sans', 
+              'Lucida Sans Regular', 
+              'Lucida Grande', 
+              'Lucida Sans Unicode', 
+              Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameMode{
+  padding: 15px 20px;
+  position: relative;
+  margin: 10px;
+  background-color: #00b9bd;
+  border-radius: 30px;
+  box-shadow: 5px 10px 15px black;
+
+}
+
+.gameMode img{
+  width: 400px;
+  border:#007e80 solid 10px;
+  border-radius: 20px;
+}
+
+.gameMode h1{
+  color: aliceblue;
+  margin-left: 80px;
+}
